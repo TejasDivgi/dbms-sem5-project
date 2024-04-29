@@ -1,0 +1,80 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #FF6B6B, #FFD166, #88D8B0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Jumbotron styling */
+.jumbotron {
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Title styling */
+.display-3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styling */
+.hello {
+    margin-top: 30px;
+}
+
+.btn-light,
+.btn-dark {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-light {
+    background-color: #FFD166;
+    color: #333;
+    margin-right: 20px;
+    border: 2px solid #FFD166;
+}
+
+.btn-dark {
+    background-color: #FFD166; /* Use the same color as the Register button */
+    color: #333;
+    border: 2px solid #FFD166; /* Add a border to match the Register button */
+}
+
+.btn-light:hover,
+.btn-dark:hover {
+    background-color: #FFA500;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover effect on buttons */
+.btn-light:hover {
+    color: #fff;
+    text-shadow: none;
+}
+
+.btn-dark:hover {
+    background-color: #FFA500;
+    color: #fff; /* Change text color to match the Register button */
+    text-shadow: none; /* Remove text shadow */
+}

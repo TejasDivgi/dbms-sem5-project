@@ -1,0 +1,88 @@
+/* Add this CSS to your stylesheet */
+
+/* General styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(45deg, #FF6B6B, #FFD166, #88D8B0);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  width: 90%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Center the card */
+.col-sm-8 {
+  margin: 0 auto;
+  float: none;
+}
+
+/* Header styling */
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Input styling */
+.form-control {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.form-control:hover {
+  background-color: #e0e0e0;
+}
+
+/* Button styling */
+.btn-dark {
+  text-decoration: none;
+  color: #fff;
+  background-color: #FFD166;
+  padding: 5px 15px;
+  border-radius: 25px;
+  font-size: 15px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btn-dark:hover {
+  background-color: #FFA500;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
